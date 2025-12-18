@@ -24,10 +24,27 @@
 # for each_word in text:
 #     print(each_word)
 
-l1 = [10, 12, 25, 20]
-for each_number in l1:
-    if each_number == 12:
-        continue
-    print(each_number * 2)
-else:
-    print("Good bye")
+# l1 = [10, 12, 25, 20]
+# for each_number in l1:
+#     if each_number == 12:
+#         continue
+#     print(each_number * 2)
+# else:
+#     print("Good bye")
+
+# range
+# range(end), range(start,end), range(start,end,step)
+# for x in range(3,15,2):
+# #     print(x)
+
+# Nested loop( Inner loop executed one time for each element in outer loop)
+# colours = ['red', 'blue', 'black']
+# fruits = ['apple', 'banana', 'orange']
+# for each_colour in colours:
+#     for each_fruit in fruits:
+#         print(each_fruit, each_colour)
+
+# Assert
+x = "Hello Venkat"
+assert x == "Hello Venkat"
+assert x == "Bye"
