@@ -81,13 +81,21 @@
 # decorated()
 
 # Generators
-def fibo(limit):
-    a, b = 0, 1
-    while a < limit:
-        yield a
-        a, b = b, a+b
+# def fibo(limit):
+#     a, b = 0, 1
+#     while a < limit:
+#         yield a
+#         a, b = b, a+b
+#
+# x = fibo(4)
+# print(next(x))
+# print(next(x))
+# print(next(x))
 
-x = fibo(4)
-print(next(x))
-print(next(x))
-print(next(x))
+# Modulus
+# structured programming
+import Modules as m
+from Modules import *
+f1()
+square = power(2)
+print(square(2))
