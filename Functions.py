@@ -94,8 +94,30 @@
 
 # Modulus
 # structured programming
-import Modules as m
-from Modules import *
-f1()
-square = power(2)
-print(square(2))
+# import Modules as m
+# from Modules import *
+# f1()
+# square = power(2)
+# print(square(2))
+
+
+# input() Takes string as a input
+# user = float(input("Enter value:"))
+# print(user)
+# print(type(user))
+
+# Map()
+# collec = [10, 25, 43, 19, 16]
+# collec2 = list(map(float, collec))
+# double = list(map(lambda x: x * 2, collec))
+# print(double)
+
+# Filter
+age = [15, 57, 26, 28, 30, 10, 15, 19, 12, 9, 7]
+def children(x):
+    return x >= 15
+#         return True
+#     else:
+#         return False
+children = list(filter(children, age))
+print(children)
