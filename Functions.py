@@ -47,9 +47,47 @@
 # f1()
 
 # Recursion
-def factorial(n):
-    if n == 1:
-        return 1
-    else:
-        return n * factorial(n-1)
-print(factorial(5))
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+# print(factorial(5))
+
+# Lambda arguments: expression
+# a = lambda x: x + 5
+# print(a(10))
+
+# power of lambda
+# def power(n):
+#     return lambda a: a ** n
+# square = power(2)
+# cube = power(3)
+# print(square(2))
+# print(cube(3))
+
+# Decorators
+# def my_decorator(func):
+#     def wrapper():
+#         print('something is happening Before the function is called')
+#         func()
+#         print('something is happening After the function is called')
+#     return wrapper
+# @my_decorator
+# def say_hello():
+#     print('Hello')
+# say_hello()
+# decorated = my_decorator(say_hello)
+# decorated()
+
+# Generators
+def fibo(limit):
+    a, b = 0, 1
+    while a < limit:
+        yield a
+        a, b = b, a+b
+
+x = fibo(4)
+print(next(x))
+print(next(x))
+print(next(x))

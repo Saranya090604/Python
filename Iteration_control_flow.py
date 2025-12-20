@@ -38,7 +38,7 @@
 # #     print(x)
 
 # Nested loop( Inner loop executed one time for each element in outer loop)
-# colours = ['red', 'blue', 'black']
+# colors = ['red', 'blue', 'black']
 # fruits = ['apple', 'banana', 'orange']
 # for each_colour in colours:
 #     for each_fruit in fruits:
