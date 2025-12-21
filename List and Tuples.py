@@ -66,17 +66,56 @@
 # print(l1)
 
 # max and min
-l1 = [10, 20, 30, 40, 50, 60, 70, 80]
-print(max(l1))
-print(min(l1))
+# l1 = [10, 20, 30, 40, 50, 60, 70, 80]
+# print(max(l1))
+# print(min(l1))
+#
+# # membership
+# print(40 in l1)
+# print('saranya' not in l1)
+#
+# # nested list
+# l1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# print(l1)
+# l2 = [10, 11, 12]
+# l2.append(l1)
+# print(l1)
 
-# membership
-print(40 in l1)
-print('saranya' not in l1)
+# List comphrension
 
-# nested list
-l1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-print(l1)
-l2 = [10, 11, 12]
-l2.append(l1)
-print(l1)
+# names = ['anna', 'john', 'rosy', 'ananya', 'lavanya']
+# names_with_a = [all_items for all_items in names if 'a' in all_items]
+# print(names_with_a)
+#
+# double_from_0_5 = [number for number in range(5)]
+# print(double_from_0_5)
+
+
+# matrix
+matrix = []
+for i in range(4):
+    matrix.append([])
+    for j in range(4):
+        matrix[i].append(j)
+    print(matrix)
+
+matrix =[[y for y in range(4)] for x in range(4)]
+print(matrix)
+
+# Tuples
+
+t1 = (10, 20, 30, 40, 50)
+print(t1)
+t2 = ('anu', 'aksha', 'kaviya')
+t3 = (True, False, False, True)
+t4 = (10, 20, 30, 40,'anu','aksha',True, False, False)
+print(t1, t2, t3, t4, sep='\n')
+print(type(t1), type(t2), type(t3), type(t4), type(t4), sep='\n')
+
+# * -> means remaining all items
+t1 = ('A', 'B', 'C', 'D', 'E', 'F')
+print(t1)
+a, *b, c = t1
+print(a)
+print(b)
+print(c)
