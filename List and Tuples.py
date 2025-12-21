@@ -49,12 +49,18 @@
 #     l1.append(x)
 #     print(l1)
 
-l1 = [1, 2, 3, 4, 5, 'Mango', 6, 7, 8, 9, 'kiwi', 25, 46]
-print(l1)
-l1.pop(6)
-print(l1)
-del l1[3:8]
-print(l1)
-l1.clear()
-print(l1)
+# l1 = [1, 2, 3, 4, 5, 'Mango', 6, 7, 8, 9, 'kiwi', 25, 46]
+# print(l1)
+# l1.pop(6)
+# print(l1)
+# del l1[3:8]
+# print(l1)
+# l1.clear()
+# print(l1)
 
+l1 = ["Apple", "Kiwi", "Cherries", "Oranges", "avacado"]
+print(l1)
+l1.sort()
+print(l1)
+l1.sort(reverse=True)
+print(l1)
