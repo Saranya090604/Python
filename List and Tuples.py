@@ -7,11 +7,27 @@
 # print(l1, l2, l3, l4, sep='\n')
 # print(type(l1), type(l2), type(l3), type(l4), type(l4), sep='\n')
 
-l1 = list(range(15))
+# l1 = list(range(15))
+# print(l1)
+#
+# l2 = list(range(5, 15))
+# print(l2)
+#
+# l3 = list(range(6, 13, 2))
+# print(l3)
+
+l1 = [10, 39, 46, 37, 63, 50]
+print(l1[1:5])
+print(l1[:4])
+print(l1[::3])
+
+# update
+l1 = [10, 39, 46, 37, 63, 50]
+print(l1)
+l1[3] = 'Saranya'
 print(l1)
 
-l2 = list(range(5, 15))
-print(l2)
-
-l3 = list(range(6, 13, 2))
-print(l3)
+l1 = [10, 39, 46, 37, 63, 50]
+print(l1)
+l1[2:4] = ['Hello', 'Saranya']
+print(l1)
