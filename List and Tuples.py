@@ -58,9 +58,25 @@
 # l1.clear()
 # print(l1)
 
-l1 = ["Apple", "Kiwi", "Cherries", "Oranges", "avacado"]
+# l1 = ["Apple", "Kiwi", "Cherries", "Oranges", "avacado"]
+# print(l1)
+# l1.sort()
+# print(l1)
+# l1.sort(reverse=True)
+# print(l1)
+
+# max and min
+l1 = [10, 20, 30, 40, 50, 60, 70, 80]
+print(max(l1))
+print(min(l1))
+
+# membership
+print(40 in l1)
+print('saranya' not in l1)
+
+# nested list
+l1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(l1)
-l1.sort()
-print(l1)
-l1.sort(reverse=True)
+l2 = [10, 11, 12]
+l2.append(l1)
 print(l1)
