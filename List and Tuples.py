@@ -16,18 +16,45 @@
 # l3 = list(range(6, 13, 2))
 # print(l3)
 
-l1 = [10, 39, 46, 37, 63, 50]
-print(l1[1:5])
-print(l1[:4])
-print(l1[::3])
+# l1 = [10, 39, 46, 37, 63, 50]
+# print(l1[1:5])
+# print(l1[:4])
+# print(l1[::3])
+#
+# # update
+# l1 = [10, 39, 46, 37, 63, 50]
+# print(l1)
+# l1[3] = 'Saranya'
+# print(l1)
+#
+# l1 = [10, 39, 46, 37, 63, 50]
+# print(l1)
+# l1[2:4] = ['Hello', 'Saranya']
+# print(l1)
 
-# update
-l1 = [10, 39, 46, 37, 63, 50]
+# l1 = [1,2,3,4,5,6,7,8,9]
+# print(l1)
+# #append
+# l1.append('kiwi')
+# print(l1)
+# l1.insert(5, 'Mango')
+# print(l1)
+# l2 = [25, 46]
+# l1.extend(l2)
+# print(l1)
+#
+# l1 = [2, 5]
+# l2 = [9, 10]
+# for x in l2:
+#     l1.append(x)
+#     print(l1)
+
+l1 = [1, 2, 3, 4, 5, 'Mango', 6, 7, 8, 9, 'kiwi', 25, 46]
 print(l1)
-l1[3] = 'Saranya'
+l1.pop(6)
+print(l1)
+del l1[3:8]
+print(l1)
+l1.clear()
 print(l1)
 
-l1 = [10, 39, 46, 37, 63, 50]
-print(l1)
-l1[2:4] = ['Hello', 'Saranya']
-print(l1)
